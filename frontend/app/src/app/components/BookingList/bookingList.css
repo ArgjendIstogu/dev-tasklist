@@ -1,0 +1,73 @@
+.card {
+  background-color: #f8f9fa; /* Background color for the card */
+  border: 1px solid #dee2e6; /* Border for the card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for some depth */
+  max-width: 600px; /* Maximum width of the card */
+  margin: 20px auto; /* Center the card horizontally */
+  padding: 16px; /* Padding inside the card */
+}
+
+.card-header {
+  background-color: #00ced1; /* Background color for the header */
+  color: #fff; /* Text color for the header */
+  font-size: 1.25em; /* Font size for the header */
+  font-weight: bold; /* Font weight for the header */
+  padding: 10px 16px; /* Padding for the header */
+  border-radius: 8px 8px 0 0; /* Rounded corners for the header */
+  text-align: center; /* Center the header text */
+}
+
+.card-body {
+  padding: 16px; /* Padding inside the body */
+  position: relative; /* Allows absolute positioning of the button within the body */
+}
+
+.booking-items-container {
+  padding-top: 50px; /* Space for the button */
+}
+
+.booking-item {
+  background-color: #fff; /* Background color for items */
+  border: 1px solid #dee2e6; /* Border for items */
+  border-radius: 4px; /* Rounded corners for items */
+  padding: 10px 16px; /* Padding for items */
+  margin-bottom: 10px; /* Space between items */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for items */
+}
+
+.booking-item:last-child {
+  margin-bottom: 0; /* Remove bottom margin for the last item */
+}
+
+.booking-link {
+  text-decoration: none; /* Remove underline from links */
+  color: #00bfff; /* Link color */
+  font-weight: bold; /* Bold text for links */
+}
+
+.booking-link:hover {
+  color: #1e90ff; /* Change color on hover */
+}
+
+.add-booking-container {
+  position: absolute; /* Position the button absolutely within the card-body */
+  top: 16px; /* Space from the top of the body */
+  right: 16px; /* Space from the right of the body */
+}
+
+.add-booking-button {
+  background-color: #00ced1; /* Button background color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  color: #fff; /* Text color */
+  font-size: 1em; /* Font size */
+  font-weight: bold; /* Bold text */
+  padding: 10px 20px; /* Padding inside the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.add-booking-button:hover {
+  background-color: #00bfff; /* Darker green on hover */
+}
