@@ -1,0 +1,39 @@
+.card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 16px;
+  position: relative;
+}
+
+.card-header {
+  background-color: #00ced1;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header-title {
+  flex: 1;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.back-button {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  position: absolute;
+  left: 10px;
+}
